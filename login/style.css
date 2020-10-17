@@ -95,7 +95,31 @@ h1 {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 10px;
+  margin-top: 10px;
+}
+
+.back-btn {
+  background: #fff;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  height: 50px;
+  color: #0850a2;
+  text-decoration: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 10px;
   margin-top: 30px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #999;
 }
 
 .link {
@@ -114,6 +138,18 @@ h1 {
   float: left;
   width: 100%;
   margin-bottom: 10px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.height-600 {
+  height: 600px;
+}
+
+.height-620 {
+  height: 620px;
 }
 
 @-moz-keyframes wrong-log {
@@ -177,6 +213,18 @@ h1 {
   justify-content: center;
   font-size: 18px;
   margin-top: 20px;
+}
+
+.description1 {
+  margin-top: 20px;
+}
+
+.description1 div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
 }
 
 .log-status {
