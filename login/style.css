@@ -185,4 +185,5 @@ h1 {
 
 .see-password {
   cursor: pointer;
+  display: none;
 }
