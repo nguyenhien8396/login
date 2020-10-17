@@ -156,6 +156,10 @@ h1 {
   height: 520px;
 }
 
+.height-420 {
+  height: 420px;
+}
+
 @-moz-keyframes wrong-log {
   0%,
   100% {
