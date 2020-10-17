@@ -95,18 +95,16 @@ h1 {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .link {
   text-decoration: none;
-  color: #c6c6c6;
   float: right;
-  font-size: 12px;
-  margin-bottom: 15px;
+  color: #5882FA;
 }
 .link:hover {
   text-decoration: underline;
-  color: #8c918f;
 }
 
 .alert {
@@ -114,6 +112,8 @@ h1 {
   font-size: 12px;
   color: #f00;
   float: left;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 @-moz-keyframes wrong-log {
