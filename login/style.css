@@ -182,3 +182,7 @@ h1 {
 .log-status {
   margin-bottom: 20px;
 }
+
+.see-password {
+  cursor: pointer;
+}

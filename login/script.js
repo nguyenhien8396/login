@@ -7,4 +7,8 @@ $(document).ready(function () {
   $(".form-control").keypress(function () {
     $(".log-status").removeClass("wrong-entry");
   });
+  $(".see-password").click(function () {
+    var input = $(".log-status input");
+    input.attr("type", input.get(0).type === "text" ? "password" : "text");
+  });
 });
