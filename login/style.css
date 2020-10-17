@@ -82,7 +82,7 @@ h1 {
   border-color: #ed1c24;
 }
 
-.log-btn {
+.log-btn, .confirm-btn {
   background: #0850a2;
   cursor: pointer;
   display: inline-block;
@@ -150,6 +150,10 @@ h1 {
 
 .height-620 {
   height: 620px;
+}
+
+.height-520 {
+  height: 520px;
 }
 
 @-moz-keyframes wrong-log {
